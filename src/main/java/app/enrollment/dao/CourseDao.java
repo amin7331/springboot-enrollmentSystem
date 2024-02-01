@@ -10,5 +10,6 @@ import app.enrollment.model.Course;
 @Repository
 public interface CourseDao extends JpaRepository<Course, Long> {
 
+	//test
 	public List<Course> findByTeacherId(Long teacherId);
 }
